@@ -1,0 +1,239 @@
+.nav-top{
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    border-bottom: solid 5px #F8C300;
+}
+
+
+
+button#pills-home-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-about-tab.nav-link.active{
+    background-color: #F8C300;
+    
+    
+}
+button#pills-Domestic-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-International-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-Adventurous-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-testimonial-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-contact-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-PhotoGallary-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+
+
+button#pills-home-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-about-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-Domestic-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-International-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-Adventurous-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-testimonial-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-contact-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-PhotoGallary-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+
+.container-fluid{
+    height: 150px;
+    margin-top: -7px;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #707070;
+}
+
+.nav-link{
+    padding-bottom: 0.7rem;
+}
+
+#header{
+    
+    position: relative;
+    border-bottom: 4px solid #F8C300;
+    
+}
+
+.mySlides {
+    display: none;
+  }
+
+  #highlighted-tour{
+      padding:35px;
+      background-color: rgb(234, 239, 240);
+      width: 100vw;
+      height: auto;
+      
+  }
+
+  #tour-content{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+   
+
+  .co{
+      margin: 1.6px;
+  }
+
+
+
+  .co::after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+ 
+ 
+ 
+  figure {
+    
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+    cursor: zoom-in;
+  }
+  figure:hover+span {
+    bottom: -36px;
+    opacity: 1;
+  }
+  /* Zoom In #1 */
+  .hover01 figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .hover01 figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+ 
+
+#wonder-tour{
+    padding: 50px;
+    margin-top: 30px;
+    width: 100vw;
+    height: 90vh;
+    background-image: url("blue-iceland.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#wonder-tour-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tour-description{
+    width: 360px;
+    height: 340px;
+    background-color: transparent;
+    color: black;
+    border: 6px solid white;
+    margin-top: 35px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.tour-description:hover{
+    background-color: lightslategray;
+}
+
+.tour-description h3:hover{
+    color: #F8C300;
+}
+
+.tour-description p:hover{
+    color: #F8C300;
+}
+
+#home-contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    padding: 10px;
+    
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
+.home-contact-details{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+

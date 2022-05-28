@@ -1,0 +1,237 @@
+.nav-top{
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    border-bottom: solid 5px #F8C300;
+}
+.container-fluid{
+    height: 155px;
+    margin-top: -7px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #707070;
+}
+
+.nav-link{
+    padding-bottom: 0.9rem;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+     
+}
+title-text{
+    text-align: center;
+    padding-bottom: auto;
+    /* background-image: url(https://www.google.com/search?q=travelling+destinations+in+india&rlz=1C1CHZN_enIN942IN942&sxsrf=ALeKk01whmTNRewfMWd36t0iT5T22CW6KA:1620215824022&source=lnms&tbm=isch&sa=X&ved=2ahUKEwizvJmlvrLwAhXX73MBHWy4B4wQ_AUoAXoECAEQAw); */
+}
+
+
+
+.title-text p{
+    margin: auto;
+    font-size: 25px;
+    color: #F8C300;
+    font-weight: bold;
+    font-family: 'Mukta', sans-serif;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+
+}
+.title-text p::after{
+    content: '';
+    width: 50px;
+    height: 36px;
+    background: linear-gradient( #F8C300,#fff);
+    position: absolute;
+    top:-20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-top-right-radius: -35px;
+
+}
+.title-text h1{
+    font-size: 50px;
+
+}
+.btn-outline-info{
+    color: #F8C300;
+    border-color: #F8C300;
+}
+
+
+/* Reviews */
+
+#home-btn{
+    top: 20px;
+    left: 20px;
+    margin: 30px;
+    padding: 7px;
+}
+#testimonial{
+   
+    width : 100%;
+    height: auto;
+    padding: 0px , 0px;
+    margin: 0;
+    /* background-image: linear-gradient(#2522c2,#ee6adc); */
+}
+.testimonial-row{
+    width: 98%;
+    padding: auto;
+    margin: 30px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* align-content: center;
+    align-items: center; */
+    flex-wrap: wrap;
+}
+.testimonial-col{ 
+    background: radial-gradient(#0b383414,#0b383414, #F8C300);
+    width:100%;
+    /* height:30% */
+    flex-basis: 30%;
+    padding: 20px;
+    justify-content: stretch;
+    margin: 10px;
+    padding: 5px;
+    border-radius:50px;
+    box-shadow: 0 10px 20px 3px #0b383414;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.testimonial-col p{
+    font-size: 14px;
+    padding: 7px;
+}
+.user{
+    /* font-size: 10px; */
+    display: flex;
+    margin: 20px 0;
+    
+}
+.user img{
+    padding:5px;
+    width: 40px;
+    margin-right: 20px;
+   border-radius: 3px;
+}
+.user-info .fa{
+    margin-left: 10px;
+    color: #F8C300;
+    font-size: 20px;
+}
+.user-info small{
+    color: #F8C300;
+}
+.testimonial-col:hover{
+    transform: translateY(-15px);
+}
+@media screen and (max-width: 770px){
+    .testimonial-col{
+        flex-basis: 90%;
+    }
+}
+
+
+#home-contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    padding: 10px;
+    
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
+.home-contact-details{
+    padding-top: 30px;
+    text-align: center;
+}
+
+button#pills-home-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-about-tab.nav-link.active{
+    background-color: #F8C300;
+    
+    
+}
+button#pills-Domestic-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-International-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-Adventurous-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-testimonial-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-contact-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-PhotoGallary-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+
+
+button#pills-home-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-about-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-Domestic-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-International-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-Adventurous-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-testimonial-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-contact-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-PhotoGallary-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}

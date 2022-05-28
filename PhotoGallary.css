@@ -1,0 +1,171 @@
+.nav-top{
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    border-bottom: solid 5px #F8C300;
+}
+
+button#pills-home-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-about-tab.nav-link.active{
+    background-color: #F8C300;
+    
+    
+}
+button#pills-Domestic-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-International-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-Adventurous-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-testimonial-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-contact-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+button#pills-PhotoGallary-tab.nav-link.active{
+    background-color: #F8C300;
+    
+}
+
+
+button#pills-home-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-about-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-Domestic-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-International-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-Adventurous-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-testimonial-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-contact-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+button#pills-PhotoGallary-tab.nav-link{
+    color: white;
+    font-size: 18px;
+    
+}
+
+.container-fluid{
+    height: 155px;
+    margin-top: -7px;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #707070;
+}
+
+.nav-link{
+    padding-bottom: 0.9rem;
+}
+
+#header{
+    margin-top: 155px;
+    margin-bottom: 30px;
+    height: 130px;
+    background-color: lightgrey;
+    text-align: center;
+    padding-top: 45px;
+    color: black;
+    font-size: 3.5rem;
+}
+
+
+
+#domestic,#Adventurous,#International{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+
+
+.co{
+    margin: 1.6px;
+    margin-bottom: 3px;
+}
+
+
+
+.co::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+
+
+figure {
+  
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+  
+}
+
+
+
+#home-contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    padding: 10px;
+    
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
+.home-contact-details{
+    padding-top: 30px;
+    text-align: center;
+}
